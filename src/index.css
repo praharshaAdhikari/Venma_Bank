@@ -614,8 +614,9 @@ a{
   display: grid;
   grid-template-columns: 1fr 3fr;
   column-gap: 150px;
-}
+  }
 .footer--logo--img{
+  padding-top: 50px;
   width: 60px;
 }
 .footer--logo--text{
