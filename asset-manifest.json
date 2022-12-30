@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Venma_Bank/static/css/main.f2931d15.css",
-    "main.js": "/Venma_Bank/static/js/main.3d660936.js",
+    "main.js": "/Venma_Bank/static/js/main.6d32b0ac.js",
     "static/media/hand_holding_card.png": "/Venma_Bank/static/media/hand_holding_card.0749f91957e30bcd4156.png",
     "static/media/card1.png": "/Venma_Bank/static/media/card1.d00dae592f1ee3ed283c.png",
     "static/media/card3.png": "/Venma_Bank/static/media/card3.2b3a5727206de4bb4147.png",
@@ -39,10 +39,10 @@
     "static/media/properties.png": "/Venma_Bank/static/media/properties.9540ac5d527200de7ec0.png",
     "index.html": "/Venma_Bank/index.html",
     "main.f2931d15.css.map": "/Venma_Bank/static/css/main.f2931d15.css.map",
-    "main.3d660936.js.map": "/Venma_Bank/static/js/main.3d660936.js.map"
+    "main.6d32b0ac.js.map": "/Venma_Bank/static/js/main.6d32b0ac.js.map"
   },
   "entrypoints": [
     "static/css/main.f2931d15.css",
-    "static/js/main.3d660936.js"
+    "static/js/main.6d32b0ac.js"
   ]
 }
