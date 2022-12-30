@@ -8,7 +8,6 @@ import lady4 from "./image/lady4.jpg"
 import first from "./image/first.png"
 
 import {React, useState} from "react"
-import Counter from "./Counter"
 
 export default function HomeSectionOne(){
     const [animate, setAnimate] = useState(-1)
@@ -55,11 +54,7 @@ export default function HomeSectionOne(){
                         {userImageEl}
                         {
                         <div className="home--section--one--users--count">
-                            <Counter 
-                                    start={0}
-                                    end={12000}
-                                    time={250}
-                            />+
+                            12K+
                         </div>}
                     </div>
                     <div className="home--section--one--award"> 
