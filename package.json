@@ -1,6 +1,6 @@
 {
-  "homepage": "https://praharshaadhikari.github.io/Venma",
-  "name": "bank",
+  "homepage": "https://praharshaadhikari.github.io/Venma_Bank",
+  "name": "venma_bank",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
