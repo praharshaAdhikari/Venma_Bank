@@ -42,7 +42,7 @@ export default function HomeSectionEight(){
             <p className="highlighted">achievements</p>
             <div className="home--section--eight--title">
                 <h1 className="topic">The Next Generation of Banking</h1>
-                <a href="/#" className={"button " + changeColor} onMouseEnter={() => setChangeColor("button--hover")} onMouseLeave={() => setChangeColor("")}>Learn More</a>
+                <a href="/Venma_Bank/" className={"button " + changeColor} onMouseEnter={() => setChangeColor("button--hover")} onMouseLeave={() => setChangeColor("")}>Learn More</a>
             </div>
             <div className="home--section--eight--blocks">
                 {blockEl}

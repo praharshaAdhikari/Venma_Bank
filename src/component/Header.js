@@ -42,15 +42,15 @@ export default function Header(){
     return (
         <div className="header--main container">
             <div className="header--nav">
-                <a href="/#" className="header--logo">
+                <a href="/Venma_Bank/" className="header--logo">
                     <img src={logo} alt="logo" className="header--logo--img" />
                     <p className="header--logo--text">Venma</p>
                 </a>
                 {navElements}
             </div>
             <div className="header--links">
-                <a href="/#" className="header--login">Log In</a>
-                <a href="/#" 
+                <a href="/Venma_Bank/" className="header--login">Log In</a>
+                <a href="/Venma_Bank/" 
                     className={`button ${changeColor ? "button--hover" : ""}`} 
                     onMouseEnter= {handleEnter} onMouseLeave= {handleLeave}
                 >

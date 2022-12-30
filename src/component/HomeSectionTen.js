@@ -36,7 +36,7 @@ export default function HomeSectionTen(){
         )
     })
     return(
-        <div className="home--section--ten--main">
+        <div className="home--section--ten--main" data-aos="fade-up" data-aos-duration="800">
             <p className="highlighted">FAQs</p>
             <h1 className="topic">Frequently Asked Questions</h1>
             <div className="home--section--ten--dropdown">

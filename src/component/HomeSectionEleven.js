@@ -60,14 +60,14 @@ export default function HomeSectionEleven(){
         )
     })
     return(
-        <div className="home--section--eleven--main">
+        <div className="home--section--eleven--main" data-aos="fade-up" data-aos-duration="800">
             <p className="highlighted">pricing plan</p>
             <h1 className="topic">Choose Your Plan</h1>
             <p className="home--section--eleven--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
             <div className="home--section--eleven--plans">
                 {planEl}
             </div>
-            <a href="/#" className={"button " + changeColor} onMouseEnter={() => setChangeColor("button--hover")} onMouseLeave={() => setChangeColor("")}>Let's Get Started</a>
+            <a href="/Venma_Bank/" className={"button " + changeColor} onMouseEnter={() => setChangeColor("button--hover")} onMouseLeave={() => setChangeColor("")}>Let's Get Started</a>
         </div>
     )
 }

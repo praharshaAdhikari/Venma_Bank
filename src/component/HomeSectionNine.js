@@ -88,11 +88,11 @@ export default function HomeSectionNine(){
         )
     }
     return(
-        <div className="home--section--nine--main">
+        <div className="home--section--nine--main" data-aos="fade-up" data-aos-duration="800">
             <p className="highlighted">testimonials</p>
             <div className="home--section--nine--title">
                 <h1 className="home--section--nine--topic topic">What Our Customers Say About Us</h1>
-                <a href="/#" className={"button " + changeColor} onMouseEnter={() => setChangeColor("button--hover")} onMouseLeave={() => setChangeColor("")}>Learn More</a>
+                <a href="/Venma_Bank/" className={"button " + changeColor} onMouseEnter={() => setChangeColor("button--hover")} onMouseLeave={() => setChangeColor("")}>Learn More</a>
             </div>
             <div className="home--section--nine--carousel">
                 <img src={right_arrow} alt="right" className="carousel--arrow" onClick={swapIndexLeft}/>

@@ -14,7 +14,7 @@ export default function Navbar(props){
     }
     return (
         <a 
-            href="/#" 
+            href="/Venma_Bank/" 
             className = { nowSelected 
                         ? "nav--element white" 
                         : isHighlighted 

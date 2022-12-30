@@ -48,7 +48,7 @@ export default function HomeSectionOne(){
                 <p className="highlighted">Digital Banking</p>
                 <h1 className="topic">Smart Financial Services for Everyone</h1>
                 <p className="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-                <a href="/#" className={"button " + changeColor} onMouseEnter={() => setChangeColor("button--hover")} onMouseLeave={() => setChangeColor("")}>Get Started</a>
+                <a href="/Venma_Bank/" className={"button " + changeColor} onMouseEnter={() => setChangeColor("button--hover")} onMouseLeave={() => setChangeColor("")}>Get Started</a>
                 <div className="home--section--one--info">    
                     <div className="home--section--one--users">
                         {userImageEl}

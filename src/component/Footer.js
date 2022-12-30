@@ -8,7 +8,7 @@ export default function Footer(){
     return(
         <div className="footer--main">
             <div className="footer--logo">
-                <a href="/#" className="footer--click">
+                <a href="/Venma_Bank/" className="footer--click">
                     <img src={logo} alt="logo" className="footer--logo--img"/>
                     <span className="footer--logo--text">Venma</span>
                 </a>

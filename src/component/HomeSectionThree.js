@@ -29,7 +29,7 @@ export default function HomeSectionThree(){
                 <p className="highlighted">Our Features</p>
                 <h1 className="topic">Enjoy a Better Payment Experience</h1>
                 <p className="about">Mauris lobortis ultricies nunc, eget varius massa mattis ac. Suspendisse pharetra tortor in nunc dapibus vehicula. Fusce molestie nisl ante, non tincidunt.</p>
-                <a href="/#" className={"button " + changeColor} onMouseEnter={() => setChangeColor("button--hover")} onMouseLeave={() => setChangeColor("")}>Get Started</a>
+                <a href="/Venma_Bank/" className={"button " + changeColor} onMouseEnter={() => setChangeColor("button--hover")} onMouseLeave={() => setChangeColor("")}>Get Started</a>
             </div>
         </div>
     )

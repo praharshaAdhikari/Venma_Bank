@@ -52,7 +52,7 @@ export default function HomeSectionFour(){
             <p className="highlighted container">about us</p>
             <div className="home--section--four--title container">
                 <h1 className="home--section--four--topic topic">We Make Banking Simple And Seamless</h1>
-                <a href="/#" className={"button " + changeColor} onMouseEnter={() => setChangeColor("button--hover")} onMouseLeave={() => setChangeColor("")}>Learn More</a>
+                <a href="/Venma_Bank/" className={"button " + changeColor} onMouseEnter={() => setChangeColor("button--hover")} onMouseLeave={() => setChangeColor("")}>Learn More</a>
             </div>
             <div className="home--section--four--about about container">
                 <p>Vestibulum molestie, nunc quis volutpat tiks sagittis, tellus nisl pulvinar nagging mauris, eget hendrerit tortor lauda lassun gandu lectus in urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
